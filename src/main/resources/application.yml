@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: "application-info-in-prometheus"
+    id: 68089
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+  endpoint:
+    prometheus:
+      enabled: true
